@@ -52,6 +52,15 @@ proxyTable: {
 npm run build
 ```
 
+## async 语法调试
+修改`.babelrc`文件，停用转码，构建时注意还原。
+```json
+{
+  "presets": [],
+  "plugins": []
+}
+```
+
 ## 文件上传入口
 [http://localhost:8080/#/upload](http://localhost:8080/#/upload)
 
