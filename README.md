@@ -57,6 +57,7 @@ npm run build
 
 总的来说 vue 主要参考了 Angular 部分语法，借鉴了 React 的虚拟 DOM 与组件机制，同时实现了类似于 Flux、Redux 的功能，并简化了使用方式（vuex），并有整合的 webpack 脚手架，可以说是一个前端的集大成者。
 ## 参考文献
+- [vue](https://cn.vuejs.org/v2/guide/)
 - [iview](https://www.iviewui.com/docs/guide/install)
 - [webpack](https://doc.webpack-china.org/concepts/)
 - [react](https://reactjs.org/docs/installation.html)
