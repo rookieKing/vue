@@ -105,6 +105,13 @@ const webpackConfig = merge(baseWebpackConfig, {
       minChunks: 3
     }),
 
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, '../node_modules/layui-src/dist'),
+        to: 'layui',
+        ignore: ['.*']
+      }
+    ]),
     // copy custom static assets
     new CopyWebpackPlugin([
       {

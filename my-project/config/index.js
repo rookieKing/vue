@@ -11,6 +11,14 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+      '/demo/table/user': {
+        target: 'http://www.layui.com',
+        changeOrigin: true
+      },
+      '/layui': {
+        target: 'http://localhost:3000',
+        changeOrigin: true
+      },
       '/server': {
         target: 'http://localhost:3000',
         changeOrigin: true

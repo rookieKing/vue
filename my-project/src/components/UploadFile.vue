@@ -51,9 +51,11 @@ export default {
   methods: {
     async search () {
       var res = await server.api1.search({ xx: 1, zz: 2 });
-      var data = await res.json();
-      console.log(data);
+      console.log(res);
+      this.data1 = res.data;
     },
   },
+  mounted() {
+  }
 };
 </script>
