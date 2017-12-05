@@ -10,7 +10,6 @@ import layui from './layui';
 export default {
   components: {
     layui: layui,
-    atui: atui,
   }
 }
 </script>
